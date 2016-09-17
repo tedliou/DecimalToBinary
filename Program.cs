@@ -7,21 +7,21 @@ namespace 進制轉換
     {
         static void Main(string[] args)
         {
-            int answer = 0987;
+            int question = 87;
 
             Console.Write("對照組：");
-            Console.WriteLine("\t" + answer + " 的二進制為 " + Convert.ToString(answer,2));
+            Console.WriteLine("\t" + question + " 的二進制為 " + Convert.ToString(question, 2));
 
             List<int> list = new List<int>();
             Console.Write("實驗組：");
-            Console.WriteLine("\t" + answer + " 的二進制為 " + change(answer,list));
+            Console.WriteLine("\t" + question + " 的二進制為 " + change(question, list));
 
             Console.ReadKey();
         }
 
-        static string change(int answer, List<int> list)
+        static string change(int question, List<int> list)
         {
-            binary(answer, list);
+            binary(question, list);
 
             int[] array = list.ToArray();
             Array.Reverse(array);
@@ -34,14 +34,14 @@ namespace 進制轉換
 
             return printstr;
         }
-        static void binary(int answer, List<int> list)
+        static void binary(int question, List<int> list)
         {
-            if (answer / 2 != 0)
+            if (question / 2 != 0)
             {
-                list.Add(answer % 2);
-                answer /= 2;
+                list.Add(question % 2);
+                question /= 2;
 
-                binary(answer, list);
+                binary(question, list);
             }
             else
             {
