@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace 進制轉換
+namespace DecimalToBinary
 {
     class Program
     {

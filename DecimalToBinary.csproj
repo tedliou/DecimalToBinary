@@ -7,8 +7,8 @@
     <ProjectGuid>{E9F283E3-768F-4BB7-8523-A1BA947DD27F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>進制轉換</RootNamespace>
-    <AssemblyName>進制轉換</AssemblyName>
+    <RootNamespace>DecimalToBinary</RootNamespace>
+    <AssemblyName>DecimalToBinary</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
