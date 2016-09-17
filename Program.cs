@@ -18,7 +18,6 @@ namespace 進制轉換
 
             Console.ReadKey();
         }
-
         static string change(int question, List<int> list)
         {
             binary(question, list);
